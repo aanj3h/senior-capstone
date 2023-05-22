@@ -8,10 +8,11 @@ body {
     font-family: "grenadine-mvb", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-top: 20px;
   }
   
   table {
-    margin: 5px 60px 10px 60px;
+    margin: 5px auto 10px;
     border-collapse: collapse;
     border-style: solid;
     border-color: black;
@@ -28,7 +29,7 @@ body {
   
   th {
     background-color: #84A9C0;
-    font-family: "stinger-variable",sans-serif;
+    font-family: "stinger-variable", sans-serif;
     font-variation-settings: 'wght' 400, 'wdth' 100;
     color: rgb(60, 29, 114);
   }
@@ -36,7 +37,7 @@ body {
   td.notes {
     text-align: left;
     resize: vertical;
-    min-height: 20px;
+    min-height: 50px;
   }
   
   #noEntriesMessage {
@@ -64,14 +65,8 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-family: "stinger-variable",sans-serif;
+    font-family: "stinger-variable", sans-serif;
     font-variation-settings: 'wght' 400, 'wdth' 100;
     cursor: pointer;
   }
-  
-  button:hover {
-    background-color: #B5B3D1;
-  }
-  
-  
   
